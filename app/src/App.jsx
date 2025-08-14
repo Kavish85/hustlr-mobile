@@ -718,3 +718,12 @@ export default function HustlrAppDeviceMock() {
     </DeviceFrame>
   );
 }
+// TEMP: Tailwind CDN fallback if built CSS fails to load on Vercel
+useEffect(() => {
+  if (!document.querySelector('script[data-hustlr-tailwind]')) {
+    const s = document.createElement("script");
+    s.src = "https://cdn.tailwindcss.com";
+    s.setAttribute("data-hustlr-tailwind", "1");
+    document.head.appendChild(s);
+  }
+}, []);

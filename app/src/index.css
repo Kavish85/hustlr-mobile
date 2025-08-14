@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Base layout + typography */
 html, body, #root { height: 100%; }
 body {
   font-family: Inter, ui-sans-serif, system-ui, "Segoe UI", Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
@@ -11,7 +10,5 @@ body {
   color: #000000;
   background: #EFEFEF;
 }
-
-/* hide scrollbars in the device frame scroller */
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
