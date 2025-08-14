@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import("tailwindcss").Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -12,12 +12,7 @@ export default {
           white: "#FFFFFF",
         },
       },
-      borderRadius: { '2xl': '1.25rem' },
-
-      // ⬇️ Add this
-      fontFamily: {
-        sans: ["Inter", "ui-sans-serif", "system-ui", "Segoe UI", "Helvetica", "Arial", "Apple Color Emoji", "Segoe UI Emoji"],
-      },
+      borderRadius: { "2xl": "1.25rem" },
     },
   },
   plugins: [],

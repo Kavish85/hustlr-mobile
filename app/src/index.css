@@ -4,7 +4,6 @@
 
 /* Base layout + typography */
 html, body, #root { height: 100%; }
-
 body {
   font-family: Inter, ui-sans-serif, system-ui, "Segoe UI", Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
   -webkit-font-smoothing: antialiased;
